@@ -1,6 +1,7 @@
-package Fruit;
+package TH1.Fruit;
 
 
+import TH1.Fruit.Fruit;
 
 public class Apple extends Fruit {
 

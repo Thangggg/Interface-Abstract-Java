@@ -1,4 +1,4 @@
-package Fruit;
+package TH1.Fruit;
 
 public class Orange extends Fruit {
 

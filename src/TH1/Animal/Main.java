@@ -1,9 +1,9 @@
-package Animal;
-import Fruit.Fruit;
-import Fruit.Orange;
-import Fruit.Apple;
+package TH1.Animal;
+import TH1.Fruit.Fruit;
+import TH1.Fruit.Orange;
+import TH1.Fruit.Apple;
 
-import edible.Edible;
+import TH1.Edible.Edible;
 
 public class Main {
     public static void main(String[] args) {
@@ -13,8 +13,8 @@ public class Main {
         for (Animal animal : animals) {
             System.out.println(animal.makeSound());
             if (animal instanceof Chicken) {
-                Edible edibler = (Chicken) animal;
-                System.out.println(edibler.howToEat());
+                Edible edible = (Chicken) animal;
+                System.out.println(edible.howToEat());
             }
 
             if (animal instanceof Tiger){
