@@ -1,4 +1,4 @@
-package BT1_Resizeable;
+package BT2_Colorable;
 
 public class Rectangle extends Shape{
     private double width = 1.0;
@@ -44,19 +44,11 @@ public class Rectangle extends Shape{
 
     @Override
     public String toString() {
-        return "Hình chữ nhật có chiều rộng :"
+        return "A Rectangle with width="
                 + getWidth()
-                + " và chiều dài :"
+                + " and length="
                 + getLength()
-                + ", "
-                + super.toString()
-                + ", Diện tích :" +
-                + getArea();
-    }
-
-    @Override
-    public void resize(double percent) {
-        this.length *= (percent / 200);
-        this.width += (percent / 100);
+                + ", which is a subclass of "
+                + super.toString();
     }
 }
